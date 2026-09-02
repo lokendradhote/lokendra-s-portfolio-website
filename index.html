@@ -1,492 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lokendra Dhote | DevOps Engineer | AWS | Terraform | Kubernetes</title>
-    <meta name="google-site-verification" content="YQ92XKp69DxucgVGc7z92SkNloMF1bHF7aJq-I7CRvs" />
-      <meta name="description" content="Lokendra Dhote is a DevOps Engineer specializing in AWS, Terraform, Docker, Kubernetes, Jenkins CI/CD, and Prometheus monitoring. Explore projects and cloud automation expertise." />
+<head>
+  <!-- ============================================================
+       BASIC DOCUMENT / SEO
+       Keep these values consistent with the live portfolio URL.
+       ============================================================ -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="keywords" content="Lokendra Dhote, DevOps Engineer, AWS, Terraform, Docker, Kubernetes, Jenkins, Prometheus, CI/CD, Cloud Engineer" />
+  <title>Lokendra Dhote | Cloud · DevOps · AI Systems</title>
 
-  <meta name="author" content="Lokendra Dhote" />
+  <meta name="description"
+        content="Lokendra Dhote — Computer Science student and Cloud, DevOps & AI Systems builder. Explore IRIS, EC2 Watchers and DevSecOps projects.">
 
-  <!-- Open Graph (for LinkedIn sharing) -->
-  <meta property="og:title" content="Lokendra Dhote | DevOps Engineer Portfolio" />
-  <meta property="og:description" content="DevOps Engineer specializing in AWS, Terraform, Kubernetes, CI/CD and Monitoring." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://lokendradhote.vercel.app/" />
-  <meta property="og:image" content="https://lokendradhote.vercel.app/assets/lokendra%20img.jpg" />
+  <meta name="author" content="Lokendra Dhote">
+  <meta name="keywords"
+        content="Lokendra Dhote, DevOps, Cloud, AWS, AI Systems, IRIS, Docker, Jenkins, Terraform, Kubernetes">
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="canonical" href="https://lokendradhote.vercel.app/" />
+  <!-- Canonical URL: keep this as the primary URL of the portfolio. -->
+  <link rel="canonical" href="https://lokendradhote.vercel.app/">
 
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Lokendra Dhote",
-  "url": "https://lokendradhote.vercel.app",
-  "image": "https://lokendradhote.vercel.app/assets/lokendra%20img.jpg",
-  "jobTitle": "DevOps Engineer",
-  "description": "DevOps Engineer specializing in AWS, Terraform, Docker, Kubernetes, Jenkins CI/CD and Monitoring.",
-  "sameAs": [
-    "https://www.linkedin.com/in/lokendra-dhote-b47152257",
-    "https://github.com/lokendradhote"
-  ]
-}
-</script>
+  <!-- ============================================================
+       GOOGLE SEARCH CONSOLE VERIFICATION
+       This is the verification token used by the old website.
+       Keep the separate google verification HTML file in the
+       project root as well.
+       ============================================================ -->
+  <meta name="google-site-verification"
+        content="YQ92XKp69DxucgVGc7z92SkNloMF1bHF7aJq-I7CRvs">
 
+  <!-- ============================================================
+       OPEN GRAPH
+       Controls the preview when the website is shared on
+       LinkedIn and other supported platforms.
+       ============================================================ -->
+  <meta property="og:title" content="Lokendra Dhote | Cloud · DevOps · AI Systems">
+  <meta property="og:description"
+        content="Portfolio of Lokendra Dhote — Cloud, DevOps and AI Systems builder. Creator of IRIS.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lokendradhote.vercel.app/">
+  <!-- Replace profile.jpg with your actual photo when ready. -->
+  <meta property="og:image" content="https://lokendradhote.vercel.app/assets/lokendra img.jpg">
 
-  </head>
-  <body>
+  <!-- ============================================================
+       PERSON STRUCTURED DATA
+       Helps search engines understand that this page represents
+       a real person and connects the portfolio with GitHub and
+       LinkedIn profiles.
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lokendra Dhote",
+    "url": "https://lokendradhote.vercel.app/",
+    "image": "https://lokendradhote.vercel.app/assets/lokendra img.jpg",
+    "jobTitle": "Cloud & DevOps Enthusiast",
+    "description": "Computer Science student exploring Cloud, DevOps and AI Systems.",
+    "sameAs": [
+      "https://github.com/lokendradhote",
+      "https://www.linkedin.com/in/lokendra-dhote-b47152257"
+    ],
+    "knowsAbout": [
+      "Cloud Computing",
+      "DevOps",
+      "AWS",
+      "CI/CD",
+      "DevSecOps",
+      "AI Systems",
+      "Docker",
+      "Jenkins",
+      "Terraform",
+      "Kubernetes"
+    ]
+  }
+  </script>
 
+  <!-- Google Fonts. The website still works if the fonts fail to load. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <nav id="desktop-nav">
-      <div class="logo">Lokendra Dhote  </div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+  <!-- Main stylesheet. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Subtle visual texture. These elements are decorative only. -->
+  <div class="noise" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       NAVIGATION
+       Resume is intentionally visible here so recruiters can
+       reach it immediately.
+       ============================================================ -->
+  <header class="nav" id="nav">
+    <a class="logo" href="#home" aria-label="Lokendra Dhote home">
+      <span>L</span> LOKENDRA
+    </a>
+
+    <!-- Mobile menu button. -->
+    <button class="menu" id="menu" aria-label="Open navigation menu">
+      <i></i><i></i>
+    </button>
+
+    <nav id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Stack</a>
+      <a href="#projects">Work</a>
+      <a href="#journey">Journey</a>
+
+      <!-- Resume file:
+           Replace assets/resume.pdf with another filename only if
+           you decide to change the standard filename. -->
+      <a class="nav-resume" href="assets/Lokendra Dhote resume 03-2026 .pdf" target="_blank" rel="noopener">
+        Resume ↗
+      </a>
+
+      <a class="nav-pill" href="#contact">Let's talk ↗</a>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Lokendra Dhote</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+  </header>
+
+  <main>
+    <!-- ==========================================================
+         HERO
+         ========================================================== -->
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="status"></span>
+          CLOUD · DEVOPS · AI SYSTEMS
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+        <h1>
+          I build<br>
+          <em>systems</em><br>
+          that move.
+        </h1>
+
+        <p class="hero-text">
+          I'm <strong>Lokendra Dhote</strong> — a Computer Science student and builder
+          exploring cloud infrastructure, DevOps automation, secure delivery pipelines,
+          and personal AI systems.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#projects">
+            Explore my work <b>↗</b>
+          </a>
+
+          <a class="btn btn-outline" href="assets/Lokendra Dhote resume 03-2026 .pdf" target="_blank" rel="noopener">
+            View Resume
+          </a>
+        </div>
+
+        <div class="hero-facts">
+          <span><b>2024–27</b> B.Tech CSE</span>
+          <span><b>NOW</b> Building IRIS</span>
+          <span><b>INDIA</b> Based in</span>
         </div>
       </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/lokendra img.jpg" style="border-radius: 50%;" alt="Lokendra Dhote img" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Lokendra Dhote</h1>
-        
-        <p class="section__text__p2">Cloud and DevOps Enthusiast</p>
-        <div class="btn-container">
-           <!-- Resume section -->
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('assets/Lokendra Dhote resume 03-2026 .pdf')"
-          >
-            Download Resume
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+
+      <!-- CSS-based animated hero object. No React or Three.js required. -->
+      <div class="hero-art" id="heroArt" aria-label="Animated system visualization">
+        <div class="art-caption">SYSTEM / 001</div>
+
+        <div class="orb">
+          <div class="orb-core">L</div>
+          <div class="orb-ring ring-a"></div>
+          <div class="orb-ring ring-b"></div>
+          <div class="orb-ring ring-c"></div>
+
+          <div class="sat sat-1">AI</div>
+          <div class="sat sat-2">CI/CD</div>
+          <div class="sat sat-3">AWS</div>
+          <div class="sat sat-4">∞</div>
         </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/lokendra-dhote-b47152257/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/lokendradhote'"
-          />
+
+        <div class="art-bottom">
+          LOCAL-FIRST · AUTOMATION · OBSERVABILITY
         </div>
       </div>
     </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/lokendra img.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p> Self learner  <br />Cloud and DevOps</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p> <b>Diploma</b> in Computer Science and Engineering (2021-2024)<br /> <br> <b>B Tech</b> in Computer Science and Engineering.(2024-2027)</p>
+
+    <!-- Moving technology strip. -->
+    <div class="ticker" aria-hidden="true">
+      <div>BUILD · AUTOMATE · SECURE · OBSERVE · LEARN · ITERATE · BUILD · AUTOMATE · SECURE · OBSERVE · LEARN · ITERATE ·</div>
+    </div>
+
+    <!-- ==========================================================
+         ABOUT + PROFILE
+         The profile photo is intentionally a replaceable local
+         asset: assets/profile.jpg
+         ========================================================== -->
+    <section class="section about" id="about">
+      <div class="section-label">01 / ABOUT</div>
+
+      <div class="about-layout">
+        <div class="profile-card">
+          <!-- =====================================================
+               PROFILE PHOTO PLACEHOLDER
+               Replace ONLY assets/profile.jpg with your own image.
+               No HTML change is required if you keep the filename.
+               ===================================================== -->
+          <div class="profile-photo-wrap">
+            <img
+              src="assets/lokendra img.jpg"
+              alt="Lokendra Dhote"
+              class="profile-photo"
+            >
+
+            <!-- Placeholder appears behind the image if no photo is
+                 supplied yet. -->
+            <div class="photo-placeholder" aria-hidden="true">
+              <span>YOUR<br>PHOTO</span>
             </div>
           </div>
-          <div class="text-container">
+
+          <div class="profile-info">
+            <div>
+              <span class="mini-label">BUILDER</span>
+              <h3>Lokendra Dhote</h3>
+            </div>
+
+            <div class="profile-role">
+              Computer Science<br>
+              Cloud · DevOps · AI Systems
+            </div>
+          </div>
+
+          <div class="profile-location">
+            <span class="status"></span>
+            Indore, India
+          </div>
+        </div>
+
+        <div class="about-content">
+          <h2>
+            Curious by default.<br>
+            <em>Serious about building.</em>
+          </h2>
+
+          <div class="body-copy">
             <p>
-              I'm <strong>Lokendra Dhote</strong>, a Computer Science student and passionate DevOps and Cloud enthusiast.
-    I build and streamline scalable, secure solutions using tools like <strong>AWS, Docker, Jenkins, Terraform</strong>,
-    and enhance them with DevSecOps practices using <strong>Trivy, SonarQube</strong>, plus observability via
-    <strong>Prometheus & Grafana</strong>. With hands-on projects spanning CI/CD, infrastructure automation, and monitoring,
-    I'm continuously learning and ready to contribute as a DevOps Engineer.
+              I'm a Computer Science student and Cloud & DevOps enthusiast.
+              I like taking an idea apart, understanding how its pieces work,
+              and turning those pieces into something reliable.
+            </p>
+
+            <p>
+              My work spans AWS, Linux, Docker, Jenkins, Terraform, monitoring,
+              security and automation. More recently, I've been exploring
+              <strong>IRIS</strong> — a local-first hybrid personal AI assistant.
+            </p>
+
+            <!-- Resume actions are also available here for easy access. -->
+            <div class="resume-actions">
+              <a class="btn btn-light" href="assets/Lokendra Dhote resume 03-2026 .pdf" target="_blank" rel="noopener">
+                View Resume ↗
+              </a>
+
+              <a class="btn btn-outline" href="assets/Lokendra Dhote resume 03-2026 .pdf" download>
+                Download Resume ↓
+              </a>
+            </div>
+
+            <div class="stats">
+              <div><b>01</b><small>Flagship AI<br>system</small></div>
+              <div><b>11+</b><small>Core tools &<br>technologies</small></div>
+              <div><b>∞</b><small>Things left<br>to learn</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         STACK
+         ========================================================== -->
+    <section class="section stack" id="skills">
+      <div class="section-label">02 / STACK</div>
+
+      <div class="stack-head">
+        <h2>The tools behind<br><em>the work.</em></h2>
+        <p>
+          I choose tools around the problem — speed, reliability,
+          security, observability, and maintainability.
+        </p>
+      </div>
+
+      <div class="skill-cloud">
+        <span class="featured">AWS</span>
+        <span>Linux</span>
+        <span>Docker</span>
+        <span>Jenkins</span>
+        <span class="featured cyan">Terraform</span>
+        <span>Git & GitHub</span>
+        <span>Kubernetes</span>
+        <span>Shell Scripting</span>
+        <span>SonarQube</span>
+        <span>Trivy</span>
+        <span>OWASP</span>
+        <span>Prometheus</span>
+        <span class="featured">Grafana</span>
+        <span>Python</span>
+        <span>AI Systems</span>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         PROJECTS
+         Four projects are intentionally kept:
+         1. IRIS
+         2. EC2 Watchers
+         3. FoodFrenzy
+         4. MERN DevSecOps
+         ========================================================== -->
+    <section class="section projects" id="projects">
+      <div class="section-label">03 / SELECTED WORK</div>
+
+      <div class="project-intro">
+        <h2>Projects that<br><em>teach me something.</em></h2>
+        <p>
+          From CI/CD and infrastructure automation to a personal AI assistant —
+          each project is a practical step deeper into engineering.
+        </p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- ========================================================
+             PROJECT 01 — IRIS
+             Replace the dummy URL when the real IRIS website is ready.
+             ======================================================== -->
+        <article class="project irisis">
+          <div class="project-meta">
+            <span>01 / FLAGSHIP</span>
+            <span>AI SYSTEM</span>
+          </div>
+
+          <div class="project-visual iris-visual">
+            <div class="iris-symbol">◈</div>
+            <span>LOCAL</span>
+            <span>HYBRID</span>
+            <span>CONTROL</span>
+          </div>
+
+          <h3>IRIS</h3>
+
+          <p>
+            A local-first hybrid personal AI assistant with modular architecture
+            and user-selectable Local, Cloud, and Hybrid execution modes.
+          </p>
+
+          <div class="tags">
+            <i>Python</i>
+            <i>AI</i>
+            <i>PySide</i>
+            <i>SQLite</i>
+            <i>Hybrid</i>
+          </div>
+
+          <!-- DUMMY LINK — replace with your real IRIS website/GitHub URL. -->
+          <a class="project-link"
+             href="https://github.com/lokendradhote/IRIS"
+             target="_blank"
+             rel="noopener">
+            Explore IRIS ↗
+          </a>
+        </article>
+
+        <!-- ========================================================
+             PROJECT 02 — EC2 WATCHERS
+             ======================================================== -->
+        <article class="project">
+          <div class="project-meta">
+            <span>02 / CLOUD</span>
+            <span>MONITORING</span>
+          </div>
+
+          <div class="project-visual watcher">
+            <div class="radar"></div>
+            <span>EC2 / WATCHING</span>
+          </div>
+
+          <h3>EC2 Watchers</h3>
+
+          <p>
+            A real-time EC2 monitoring tool using shell scripting to track
+            CPU and RAM metrics and send instant Telegram alerts.
+          </p>
+
+          <div class="tags">
+            <i>AWS</i>
+            <i>EC2</i>
+            <i>Bash</i>
+            <i>Telegram</i>
+            <i>Cron</i>
+          </div>
+
+          <!-- DUMMY LINK — replace with the real GitHub repository URL. -->
+          <a class="project-link"
+             href="https://github.com/lokendradhote/EC2-Watchers"
+             target="_blank"
+             rel="noopener">
+            Explore project ↗
+          </a>
+        </article>
+
+        <!-- ========================================================
+             PROJECT 03 — FOODFRENZY
+             ======================================================== -->
+        <article class="project">
+          <div class="project-meta">
+            <span>03 / DEVOPS</span>
+            <span>CI/CD</span>
+          </div>
+
+          <div class="project-visual pipeline">
+            <span>CODE</span>
+            <b>→</b>
+            <span>BUILD</span>
+            <b>→</b>
+            <span>SECURE</span>
+            <b>→</b>
+            <span>SHIP</span>
+          </div>
+
+          <h3>FoodFrenzy</h3>
+
+          <p>
+            A Java CI/CD project combining automated delivery with DevSecOps
+            checks and monitoring.
+          </p>
+
+          <div class="tags">
+            <i>Java</i>
+            <i>Jenkins</i>
+            <i>Docker</i>
+            <i>SonarQube</i>
+            <i>Trivy</i>
+          </div>
+
+          <!-- DUMMY LINK — replace with the real project/demo URL. -->
+          <a class="project-link"
+             href="https://github.com/lokendradhote/FoodFrenzy-CICD"
+             target="_blank"
+             rel="noopener">
+            Explore project ↗
+          </a>
+        </article>
+
+        <!-- ========================================================
+             PROJECT 04 — MERN DEVSECOPS
+             ======================================================== -->
+        <article class="project">
+          <div class="project-meta">
+            <span>04 / DEVSECOPS</span>
+            <span>MERN</span>
+          </div>
+
+          <div class="project-visual devsec">
+            <span>APP</span>
+            <b>+</b>
+            <span>SECURITY</span>
+            <b>+</b>
+            <span>OBSERVE</span>
+          </div>
+
+          <h3>MERN DevSecOps</h3>
+
+          <p>
+            A MERN CI/CD workflow using Jenkins and Docker, extended with
+            security scanning and application monitoring.
+          </p>
+
+          <div class="tags">
+            <i>MERN</i>
+            <i>Jenkins</i>
+            <i>Docker</i>
+            <i>Trivy</i>
+            <i>Prometheus</i>
+            <i>Grafana</i>
+          </div>
+
+          <!-- DUMMY LINK — replace with the real project/demo URL. -->
+          <a class="project-link"
+             href="https://github.com/lokendradhote/Indore-Route-Pathfinder-cicd"
+             target="_blank"
+             rel="noopener">
+            Explore project ↗
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         JOURNEY
+         ========================================================== -->
+    <section class="section journey" id="journey">
+      <div class="section-label">04 / JOURNEY</div>
+
+      <div class="journey-grid">
+        <h2>Learning by<br><em>shipping.</em></h2>
+
+        <div class="timeline">
+          <div>
+            <span>2021 — 2024</span>
+            <h3>Diploma · Computer Science & Engineering</h3>
+            <p>
+              Govt Polytechnic College, Itarsi — building the foundation
+              and turning curiosity into hands-on technical work.
+            </p>
+          </div>
+
+          <div>
+            <span>2024 — 2027</span>
+            <h3>B.Tech · Computer Science & Engineering</h3>
+            <p>
+              BM College of Technology, Indore — deepening software
+              engineering knowledge while building practical cloud and
+              DevOps projects.
+            </p>
+          </div>
+
+          <div>
+            <span>NOW</span>
+            <h3>IRIS · Local-first Hybrid AI</h3>
+            <p>
+              Exploring personal AI architecture, modular software,
+              local execution, cloud integration, and real-world iteration.
             </p>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Skills</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>AWS </h3>
-                  <p> </p> 
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Linux</h3>
-                  <p></p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                
-                <div>
-                  <h3>Shell scripting</h3>
-                  <p></p>
-                </div>
-              </article>
-              <article>
-                <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-                />
-                <div>
-                  <h3>Docker </h3>
-                  <p></p>
-                </div>
-              </article>
-              <article>
-                <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-                />
-                <div>
-                  <h3>Sonarqube</h3>
-                  <p></p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-                />
-                <div>
-                  <h3>Owasp</h3>
-                  <p></p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-                />
-                <div>
-                  <h3>Trivy</h3>
-                  <p></p>
-                </div>
-              </article>
-
-              
-              <article>
-                <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-                />
-                <div>
-                  <h3>Jenkins</h3>
-                  <p></p>
-                </div>
-              </article>
-              <article>
-                <img
-                src="./assets/checkmark.png"
-                alt="Experience icon"
-                class="icon"
-                />
-                <div>
-                  <h3>Terraform</h3>
-                  <p></p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git & Github</h3>
-                  <p></p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Prometheus</h3>
-                  <p></p>
-                </div>
-               
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Grafana</h3>
-                  <p></p>
-                </div>
-               
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Basic Kubernetes</h3>
-                  <p></p>
-                </div>
-               
-              </article>
-             
-            </div>
-          </div>
-
-
-
-
     </section>
 
+    <!-- ==========================================================
+         CONTACT
+         ========================================================== -->
+    <section class="contact" id="contact">
+      <div class="contact-glow" aria-hidden="true"></div>
 
+      <div class="contact-inner">
+        <div class="eyebrow">05 / CONTACT</div>
 
+        <h2>
+          Have something<br>
+          <em>worth building?</em>
+        </h2>
 
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Foodfrenzy cicd.jpg"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">FoodFrenzy - Java CI/CD with DevSecOps & Monitoring </h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/lokendradhote/FoodFrenzy-CICD' "
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://youtu.be/o_GlbzHFqzA?si=vlzXwPFNLecw0KeQ'"
-              >
-                 Youtube
-              </button>
-            </div>
-          </div>
+        <p>
+          Let's talk about projects, engineering, AI, DevOps —
+          or a problem you're trying to solve.
+        </p>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/ec2 watchers thumbnail v2.jpg"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">EC2 Watchers - EC2 montoring tool </h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/lokendradhote/EC2-Watchers'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://youtu.be/aqIVOLbxSBQ?si=fP04LBKbSthYEVMJ'"
-              >
-                 Youtube
-              </button>
-            </div>
-          </div>
+        <a class="btn btn-light big" href="mailto:lokendradhote0@gmail.com">
+          lokendradhote0@gmail.com ↗
+        </a>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/devsecops cicd.jpg"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">DevSecOps Project | MERN CI/CD with Jenkins, Docker & Monitoring</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/lokendradhote/Indore-Route-Pathfinder-cicd.git '"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://youtu.be/xhOYr-N4rRw?si=8coeaPIPBi8_SQnp'"
-              >
-                Youtube
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div class="socials">
+          <a href="https://github.com/lokendradhote" target="_blank" rel="noopener">
+            GitHub ↗
+          </a>
 
-      <!-- Project 4 details container ends here -->
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Automated-devops-setup.jpg"
-                alt="Project 4"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Automated DevOps Setup</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/lokendradhote/Automated-DevOps-Setup' "
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://youtu.be/xhOYr-N4rRw?si=8coeaPIPBi8_SQnp'"
-              >
-                Youtube
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
+          <a href="https://www.linkedin.com/in/lokendra-dhote-b47152257"
+             target="_blank"
+             rel="noopener">
+            LinkedIn ↗
+          </a>
 
-      <!-- Project 4 details  ends here -->
-
-
-      <!-- Project details container ends here -->
-
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:lokendradhote64@gmail.com">lokendradhote64@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/lokendra-dhote-b47152257/">LinkedIn</a></p>
+          <a href="assets/Lokendra Dhote resume 03-2026 .pdf" target="_blank" rel="noopener">
+            Resume ↗
+          </a>
         </div>
       </div>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2026 Lokendra dhote. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <span>© 2026 LOKENDRA DHOTE</span>
+    <span>CLOUD · DEVOPS · AI SYSTEMS</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <!-- Main JavaScript. Only navigation + small visual interaction. -->
+  <script src="script.js"></script>
+</body>
 </html>
