@@ -12,7 +12,7 @@
   <title>Lokendra Dhote | Cloud · DevOps · AI Systems</title>
 
   <meta name="description"
-        content="Lokendra Dhote — Computer Science student and Cloud, DevOps & AI Systems builder. Explore IRIS, EC2 Watchers and DevSecOps projects.">
+      content="Lokendra Dhote — Computer Science student and Cloud, DevOps & AI Systems builder. Explore IRIS, EC2 Watchers and DevSecOps projects.">
 
   <meta name="author" content="Lokendra Dhote">
   <meta name="keywords"
@@ -49,33 +49,50 @@
        a real person and connects the portfolio with GitHub and
        LinkedIn profiles.
        ============================================================ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Lokendra Dhote",
-    "url": "https://lokendradhote.vercel.app/",
-    "image": "https://lokendradhote.vercel.app/assets/lokendra img.jpg",
-    "jobTitle": "Cloud & DevOps Enthusiast",
-    "description": "Computer Science student exploring Cloud, DevOps and AI Systems.",
-    "sameAs": [
-      "https://github.com/lokendradhote",
-      "https://www.linkedin.com/in/lokendra-dhote-b47152257"
-    ],
-    "knowsAbout": [
-      "Cloud Computing",
-      "DevOps",
-      "AWS",
-      "CI/CD",
-      "DevSecOps",
-      "AI Systems",
-      "Docker",
-      "Jenkins",
-      "Terraform",
-      "Kubernetes"
-    ]
-  }
-  </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://lokendradhote.vercel.app/#person",
+      "name": "Lokendra Dhote",
+      "url": "https://lokendradhote.vercel.app/",
+      "image": "https://lokendradhote.vercel.app/assets/lokendra%20img.jpg",
+      "jobTitle": "Cloud & DevOps Enthusiast",
+      "description": "Computer Science student exploring Cloud, DevOps and AI Systems.",
+      "sameAs": [
+        "https://github.com/lokendradhote",
+        "https://www.linkedin.com/in/lokendra-dhote-b47152257"
+      ],
+      "knowsAbout": [
+        "Cloud Computing",
+        "DevOps",
+        "AWS",
+        "CI/CD",
+        "DevSecOps",
+        "AI Systems",
+        "Docker",
+        "Jenkins",
+        "Terraform",
+        "Kubernetes"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://iris-ai-core.vercel.app/#iris",
+      "name": "IRIS",
+      "alternateName": "Intelligent Response & Interaction System",
+      "url": "https://iris-ai-core.vercel.app/",
+      "description": "A local-first hybrid personal AI assistant with Local, Cloud and Hybrid execution modes.",
+      "author": {
+        "@id": "https://lokendradhote.vercel.app/#person"
+      },
+      "codeRepository": "https://github.com/lokendradhote/IRIS"
+    }
+  ]
+}
+</script>
 
   <!-- Google Fonts. The website still works if the fonts fail to load. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -362,13 +379,21 @@
             <i>SQLite</i>
             <i>Hybrid</i>
           </div>
-
-          <!-- DUMMY LINK — replace with your real IRIS website/GitHub URL. -->
+           
+         
+          <a class="project-link"
+             href="https://iris-ai-core.vercel.app/"
+             target="_blank"
+             rel="noopener">
+              IRIS Website ↗
+            
+          </a>
           <a class="project-link"
              href="https://github.com/lokendradhote/IRIS"
              target="_blank"
              rel="noopener">
             Explore IRIS ↗
+            
           </a>
         </article>
 
