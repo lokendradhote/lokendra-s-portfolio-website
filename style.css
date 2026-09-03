@@ -1,6 +1,6 @@
 /* ================================================================
    LOKENDRA PORTFOLIO — GLOBAL STYLES
-   ---------------------------------------------------------------
+   ----------------------------------------------------------------
    This file contains the complete visual system:
    typography, layout, cards, animation, responsive behavior, etc.
 
@@ -102,7 +102,7 @@ a {
 }
 
 .logo {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.18em;
 
@@ -130,7 +130,7 @@ a {
   gap: 28px;
 
   color: #aaa6b2;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .nav nav a {
@@ -183,7 +183,7 @@ a {
 }
 
 .eyebrow {
-  font: 10px "DM Mono", monospace;
+  font: 12px "DM Mono", monospace;
   letter-spacing: 0.18em;
   color: #9e9aa7;
 
@@ -256,7 +256,7 @@ a {
   min-height: 48px;
   padding: 0 19px;
 
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 800;
 
   transition: 0.25s;
@@ -281,8 +281,8 @@ a {
   gap: 28px;
   margin-top: 52px;
 
-  color: #64616b;
-  font: 9px "DM Mono", monospace;
+  color: #85818f;
+  font: 11px "DM Mono", monospace;
 }
 
 .hero-facts b {
@@ -311,7 +311,7 @@ a {
 .art-bottom {
   position: absolute;
 
-  font: 9px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
   color: #5d5965;
   letter-spacing: 0.15em;
 }
@@ -415,7 +415,7 @@ a {
   border-radius: 999px;
 
   color: #aaa5b4;
-  font: 9px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
 }
 
 .sat-1 {
@@ -437,7 +437,7 @@ a {
   left: 10px;
   top: 35%;
 
-  font-size: 16px;
+  font-size: 17px;
   color: #cfc5ff;
 }
 
@@ -452,7 +452,7 @@ a {
   white-space: nowrap;
 
   color: #66636e;
-  font: 9px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
   letter-spacing: 0.22em;
 
   padding: 15px 0;
@@ -480,8 +480,8 @@ a {
 }
 
 .section-label {
-  font: 9px "DM Mono", monospace;
-  color: #625f69;
+  font: 11px "DM Mono", monospace;
+  color: #817d8b;
   letter-spacing: 0.16em;
   margin-bottom: 60px;
 }
@@ -621,17 +621,17 @@ a {
 }
 
 .mini-label {
-  font: 8px "DM Mono", monospace;
+  font: 10px "DM Mono", monospace;
   letter-spacing: 0.15em;
-  color: #67636e;
+  color: #85818f;
 }
 
 .profile-role {
   text-align: right;
 
-  color: #77737e;
+  color: #94909e;
 
-  font: 9px/1.6 "DM Mono", monospace;
+  font: 11px/1.6 "DM Mono", monospace;
 }
 
 .profile-location {
@@ -641,9 +641,9 @@ a {
 
   padding: 13px 5px 5px;
 
-  color: #77737e;
+  color: #94909e;
 
-  font: 9px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
 }
 
 .profile-location .status {
@@ -701,8 +701,8 @@ a {
 }
 
 .stats small {
-  font-size: 9px;
-  color: #686570;
+  font-size: 11px;
+  color: #77737f;
   line-height: 1.4;
 }
 
@@ -726,7 +726,7 @@ a {
 
   color: var(--muted);
   line-height: 1.7;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .skill-cloud {
@@ -745,9 +745,9 @@ a {
   padding: 12px 15px;
   border-radius: 999px;
 
-  color: #8f8b97;
+  color: #aaa6b4;
 
-  font: 10px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
 
   background: #ffffff03;
 
@@ -835,9 +835,9 @@ a {
   display: flex;
   justify-content: space-between;
 
-  color: #625e69;
+  color: #817d8b;
 
-  font: 9px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
   letter-spacing: 0.12em;
 }
 
@@ -872,9 +872,9 @@ a {
   justify-content: center;
   gap: 10px;
 
-  color: #57535f;
+  color: #77727f;
 
-  font: 9px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
 }
 
 /* IRIS */
@@ -978,7 +978,7 @@ a {
 /* Pipeline */
 .pipeline b,
 .devsec b {
-  color: #8f8b97;
+  color: #aaa6b4;
 }
 
 /* Tags */
@@ -998,9 +998,9 @@ a {
   padding: 7px 9px;
   border-radius: 999px;
 
-  color: #898591;
+  color: #a09ca9;
 
-  font: 9px "DM Mono", monospace;
+  font: 10px "DM Mono", monospace;
 }
 
 /* Project links container */
@@ -1017,7 +1017,7 @@ a {
 
 /* Project links */
 .project-link {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 800;
   text-decoration: none;
 
@@ -1032,7 +1032,6 @@ a {
 .project-link:hover {
   color: #d5caff;
 }
-
 
 /* ================================================================
    JOURNEY
@@ -1061,8 +1060,8 @@ a {
 }
 
 .timeline span {
-  font: 9px "DM Mono", monospace;
-  color: #77737e;
+  font: 11px "DM Mono", monospace;
+  color: #94909e;
 }
 
 .timeline h3 {
@@ -1076,7 +1075,7 @@ a {
   line-height: 1.6;
   margin: 0;
 
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* ================================================================
@@ -1141,7 +1140,7 @@ a {
 
 .contact p {
   color: var(--muted);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .big {
@@ -1156,9 +1155,9 @@ a {
 
   margin-top: 35px;
 
-  color: #85818d;
+  color: #9894a2;
 
-  font: 10px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
 }
 
 .socials a:hover {
@@ -1177,14 +1176,20 @@ footer {
   display: flex;
   justify-content: space-between;
 
-  color: #5d5964;
+  color: #787480;
 
-  font: 9px "DM Mono", monospace;
+  font: 11px "DM Mono", monospace;
   letter-spacing: 0.12em;
 }
 
 footer a {
   color: #9994a1;
+}
+
+
+/* Keep profile name on one line */
+.profile-info h3 {
+  white-space: nowrap;
 }
 
 /* ================================================================
@@ -1361,3 +1366,129 @@ footer a {
     scroll-behavior: auto !important;
   }
 }
+
+/* ================================================================
+   FINAL TEXT VISIBILITY — small / muted text
+   ================================================================ */
+
+:root {
+  --muted: #aaa6b4;
+}
+
+.nav nav {
+  font-size: 14px;
+  color: #b4b0bd;
+}
+
+.eyebrow {
+  font-size: 12px;
+  color: #c7b9ff;
+}
+
+.hero-facts {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+.art-caption,
+.art-bottom {
+  font-size: 12px;
+  color: #8f8b99;
+}
+
+.sat {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+.ticker {
+  font-size: 12px;
+  color: #85818f;
+}
+
+.section-label {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+.mini-label {
+  font-size: 11px;
+  color: #aaa6b4;
+}
+
+.profile-role,
+.profile-location {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+.body-copy {
+  font-size: 16px;
+}
+
+.stats small {
+  font-size: 12px;
+  color: #9995a3;
+}
+
+.stack-head p,
+.project-intro p {
+  font-size: 16px;
+}
+
+.skill-cloud span {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+.skill-cloud .featured {
+  font-size: 13px;
+  color: #ddd5ff;
+}
+
+.project-meta {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+.project-visual {
+  font-size: 12px;
+  color: #9692a0;
+}
+
+.tags i {
+  font-size: 11px;
+  color: #aaa6b4;
+}
+
+.project-link {
+  font-size: 12px;
+}
+
+.timeline span {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+.timeline p {
+  font-size: 16px;
+}
+
+.contact p {
+  font-size: 16px;
+}
+
+.socials {
+  font-size: 12px;
+  color: #aaa6b4;
+}
+
+footer {
+  font-size: 12px;
+  color: #8f8b99;
+}
+
+footer a {
+  color: #aaa6b4;
+}
+
